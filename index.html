@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthikeyan — AI Engineer</title>
+    <meta name="description" content="AI Engineer specializing in LangChain agents, Azure Function Apps, RAG pipelines, and intelligent automation. Building production-ready AI systems with measurable business impact.">
+    <meta name="keywords" content="AI Engineer, LangChain, Azure, RAG, OCR, Python, FastAPI, Machine Learning, Portfolio">
+    <meta property="og:title" content="S. Karthikeyan — AI Engineer">
+    <meta property="og:description" content="Building production-grade AI agents and automation systems that drive measurable business impact.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Particle Canvas Background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>K<span class="logo-dot">.</span>AI<span class="logo-bracket">/&gt;</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Tech Stack</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="#contact" class="nav-cta">Let's Talk</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open to opportunities
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-greeting">Hello, I'm</span>
+                <span class="hero-name">Karthikeyan</span>
+                <span class="hero-role" id="typed-text"></span>
+                <span class="typed-cursor">|</span>
+            </h1>
+            <p class="hero-description">
+                I build <strong>intelligent AI agents</strong> that automate workflows, process documents, and make smart decisions. 
+                Using LangChain, Azure, and RAG pipelines, I create systems that deliver 
+                <strong>real business value</strong>.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/karthi311" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/karthikeyan311" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:karthi311kumar@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user"></i> About</span>
+                <h2 class="section-title">Turning Data Into<br><span class="gradient-text">Intelligent Systems</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I'm an AI Engineer who builds <strong>intelligent automation systems</strong> that transform how businesses operate. 
+                        I specialize in LangChain agents, Azure cloud deployments, and production-ready AI solutions that deliver 
+                        measurable business value.
+                    </p>
+                    <p>
+                        My work focuses on creating AI agents that think, decide, and act autonomously. I've built systems that process 
+                        thousands of documents, make intelligent decisions, and automate complex workflows — reducing manual work by 
+                        <strong>60%</strong> and processing times by <strong>70%</strong>.
+                    </p>
+                    <p>
+                        I believe in building AI that <em>actually ships</em>. Every system I create is designed for production from day one, 
+                        with monitoring, reliability, and scalability built in.
+                    </p>
+                </div>
+                <div class="about-metrics">
+                    <div class="metric-card" data-count="3">
+                        <div class="metric-number"><span class="counter">0</span>+</div>
+                        <div class="metric-label">Production Projects</div>
+                        <div class="metric-bar"></div>
+                    </div>
+                    <div class="metric-card" data-count="60">
+                        <div class="metric-number"><span class="counter">0</span>%</div>
+                        <div class="metric-label">Automation Reduction</div>
+                        <div class="metric-bar"></div>
+                    </div>
+                    <div class="metric-card" data-count="1">
+                        <div class="metric-number"><span class="counter">0</span>+</div>
+                        <div class="metric-label">Years Experience</div>
+                        <div class="metric-bar"></div>
+                    </div>
+                    <div class="metric-card" data-count="70">
+                        <div class="metric-number"><span class="counter">0</span>%</div>
+                        <div class="metric-label">Time Reduction</div>
+                        <div class="metric-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-briefcase"></i> Experience</span>
+                <h2 class="section-title">Where I've<br><span class="gradient-text">Made Impact</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">AI Engineer</h3>
+                                <p class="timeline-company">Ezofis</p>
+                            </div>
+                            <span class="timeline-date">May 2025 — Present</span>
+                        </div>
+                        <ul class="timeline-highlights">
+                            <li>Architected intelligent AI agents with LangChain and Azure Functions that automate complex workflows, cutting manual work by <strong>60%</strong></li>
+                            <li>Built decision-making agents that analyze documents and make approval/rejection decisions autonomously — no human review needed</li>
+                            <li>Created OCR pipelines processing PDFs, TIFFs, and scanned documents, slashing processing time by <strong>70%</strong> using Azure Cognitive Services</li>
+                            <li>Implemented RAG systems with vector databases (FAISS/Chroma) that boost agent decision accuracy by <strong>35%</strong></li>
+                            <li>Optimized FastAPI/Flask APIs for enterprise-scale workflows, improving response times by <strong>30%</strong> while maintaining reliability</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>LangChain</span>
+                            <span>Azure Functions</span>
+                            <span>FastAPI</span>
+                            <span>Flask</span>
+                            <span>RAG</span>
+                            <span>FAISS</span>
+                            <span>Chroma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Python, AI & ML Intern</h3>
+                                <p class="timeline-company">Smackcoders</p>
+                            </div>
+                            <span class="timeline-date">Sep 2024 — Mar 2025</span>
+                        </div>
+                        <ul class="timeline-highlights">
+                            <li>Developed Python applications combining AI/ML models with REST APIs and databases, automating workflows by <strong>40%</strong></li>
+                            <li>Fine-tuned ML models to boost prediction accuracy by <strong>20%</strong> while optimizing for production scalability</li>
+                            <li>Enhanced backend systems and API integrations, cutting data processing time by <strong>35%</strong> and ensuring rock-solid reliability</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                            <span>SQLite</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-code"></i> Tech Stack</span>
+                <h2 class="section-title">Tools I Use to<br><span class="gradient-text">Build Intelligence</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI/ML & Agents</h3>
+                    <div class="skill-tags">
+                        <span>LangChain</span>
+                        <span>LLaMA</span>
+                        <span>Ollama</span>
+                        <span>Whisper</span>
+                        <span>RAG</span>
+                        <span>MCP</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>NLP & LLMs</h3>
+                    <div class="skill-tags">
+                        <span>Azure OpenAI</span>
+                        <span>LangChain</span>
+                        <span>RAG</span>
+                        <span>Transformers</span>
+                        <span>FAISS</span>
+                        <span>Chroma</span>
+                        <span>Prompt Eng.</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Document Processing</h3>
+                    <div class="skill-tags">
+                        <span>OCR</span>
+                        <span>PDF Extraction</span>
+                        <span>Azure Cognitive</span>
+                        <span>TIFF Processing</span>
+                        <span>Document Validation</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & Deployment</h3>
+                    <div class="skill-tags">
+                        <span>Azure Functions</span>
+                        <span>Azure Cloud</span>
+                        <span>Docker</span>
+                        <span>PostgreSQL</span>
+                        <span>MySQL</span>
+                        <span>SQLite</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Web Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Flask</span>
+                        <span>Django</span>
+                        <span>REST APIs</span>
+                        <span>Postman</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Libraries & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Hugging Face</span>
+                        <span>Transformers</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Streamlit</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-rocket"></i> Projects</span>
+                <h2 class="section-title">Systems I've<br><span class="gradient-text">Engineered & Shipped</span></h2>
+                <p class="section-subtitle">Each project represents a production system with measurable business impact</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-file-invoice"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Accounts Payable Agent</h3>
+                    <p class="project-desc">
+                        An intelligent AI agent that reads invoices, validates every line item, and automatically classifies them as 
+                        approved, partially approved, or rejected. Built with LangChain and Azure OpenAI for smart, contextual decision-making 
+                        that eliminates manual invoice review.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="project-metric">
+                            <span class="metric-value">70%</span>
+                            <span class="metric-desc">Faster Processing</span>
+                        </div>
+                        <div class="project-metric">
+                            <span class="metric-value">100%</span>
+                            <span class="metric-desc">Auto Decisions</span>
+                        </div>
+                    </div>
+                    <div class="project-tech-stack">
+                        <span>LangChain</span>
+                        <span>Azure OpenAI</span>
+                        <span>Azure Cloud</span>
+                        <span>SQL Server</span>
+                        <span>OCR</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Document Validation Agent</h3>
+                    <p class="project-desc">
+                        A smart validation system that automatically checks documents for accuracy, completeness, and compliance. It processes 
+                        PDFs, TIFFs, and forms using OCR and AI to catch missing fields, errors, and anomalies instantly — no manual review needed.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="project-metric">
+                            <span class="metric-value">65%</span>
+                            <span class="metric-desc">Faster Validation</span>
+                        </div>
+                        <div class="project-metric">
+                            <span class="metric-value">Instant</span>
+                            <span class="metric-desc">Error Detection</span>
+                        </div>
+                    </div>
+                    <div class="project-tech-stack">
+                        <span>LangChain</span>
+                        <span>Azure OpenAI</span>
+                        <span>SQL Server</span>
+                        <span>OCR</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">DeepCura</h3>
+                    <p class="project-desc">
+                        A clinical documentation assistant that uses AI to generate SOAP notes automatically. Built with LLaMA and FastAPI, 
+                        it handles 80% of documentation work, saving clinicians 40% of their time while maintaining 99.9% uptime.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="project-metric">
+                            <span class="metric-value">80%</span>
+                            <span class="metric-desc">Auto Generated</span>
+                        </div>
+                        <div class="project-metric">
+                            <span class="metric-value">99.9%</span>
+                            <span class="metric-desc">Uptime</span>
+                        </div>
+                    </div>
+                    <div class="project-tech-stack">
+                        <span>FastAPI</span>
+                        <span>Whisper</span>
+                        <span>SQLite</span>
+                        <span>Ollama</span>
+                        <span>LLaMA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-paper-plane"></i> Contact</span>
+                <h2 class="section-title">Let's Build<br><span class="gradient-text">Something Intelligent</span></h2>
+                <p class="section-subtitle">
+                    Open to full-time roles, consulting, and collaborations where AI moves the needle.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <a href="mailto:karthi311kumar@gmail.com" class="contact-card glass-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>karthi311kumar@gmail.com</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    <a href="tel:+919344802683" class="contact-card glass-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9344802683</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/karthikeyan311" target="_blank" rel="noopener" class="contact-card glass-card">
+                        <div class="contact-card-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>Connect with me</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    <a href="https://github.com/karthi311" target="_blank" rel="noopener" class="contact-card glass-card">
+                        <div class="contact-card-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>Check out my code</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    <div class="contact-card glass-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Tirunelveli, Tamil Nadu</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contact-form">
+                    <h3>Send a Message</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Let's discuss a project" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project or opportunity..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                        <span id="submit-text">Send Message</span>
+                        <i class="fas fa-paper-plane" id="submit-icon"></i>
+                    </button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <span class="logo-bracket">&lt;</span>K<span class="logo-dot">.</span>AI<span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p>Building AI systems that ship.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Tech Stack</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/karthi311" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/karthikeyan311" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:karthi311kumar@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Karthikeyan. Engineered with precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
